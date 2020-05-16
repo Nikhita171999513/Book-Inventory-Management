@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="BookListmain.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <!-- Bootsrap css -->
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- DataTables css -->
+    <link href="Data%20Table/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <!-- Font Awesome css -->
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+  
+    <!-- Custom css -->
+    <link href="css/customstylesheet.css" rel="stylesheet" />
+
+
+    <!-- jquery -->
+    <script src="Data%20Table/js/jquery-3.4.1.slim.min.js"></script>
+    <!-- popper js -->
+    <script src="Data%20Table/js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="Data%20Table/js/bootstrap.min.js"></script>
+    <!-- data tables js -->
+    <script src="Data%20Table/js/jquery.dataTables.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
