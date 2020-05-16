@@ -6,3 +6,8 @@ It performs the following:
 # Update: Updates the fields
 # Delete: Delete a particular record
 # Search: Searches along the table of Books!
+
+1.Site1.Master- for the master page
+2.Open BookInventory.aspx for the front end
+3.BookInventory.aspx.cs- for the button functions
+4.Web.config- For establishing backend- connection
