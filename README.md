@@ -14,3 +14,4 @@ Do the following:
 4. Web.config- For establishing backend- connection
 
 
+See Book Inventory Management.png for Sample Output.
